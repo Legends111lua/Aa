@@ -33,7 +33,7 @@ setupAntiAFK()
 -- Create Main Window
 local window = library:AddWindow("Legends HUB", {
 	main_color = Color3.fromRGB(34, 129, 231),
-	min_size = Vector2.new(800, 900),
+	local min_size = Vector2.new(400, 500),
 	can_resize = true,
 })
 
@@ -360,7 +360,7 @@ jungleGymFolder:AddSwitch("Jungle Boulder", function(bool)
 end)
 
 -- NEW: Farm Gyms Folder
-local farmGymsFolder = mainTab:AddFolder("Gyms List")
+local farmGymsFolder = mainTab:AddFolder("Machines")
 
 -- Workout positions data
 local workoutPositions = {
